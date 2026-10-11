@@ -22,7 +22,8 @@
   - Null/Duplicate/Type/Unstructured characteristics
   - Known refresh behavior
   - Sensitivity, Aggregation, or interpretation concerns
-6. Need-To-Source fit
+6. Need-To-Source Fit
+
 | Proposed Question | Needed Fields | Candidate Source Objects | Why the Source is Sufficient | Gap/Assumption to test in P1 |
 | ---- | ---- | ---- | ---- | ---- |
 | Q1 | ---- | ---- | ---- | ---- |
