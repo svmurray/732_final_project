@@ -33,6 +33,8 @@
 - Already aggregated
 - Static Data
 8. First P1 Decision
-  Name the first consequential issue you expect to resolve in P1—for example, the exact fact grain, which of two candidate objects should drive the model, or whether a date or identifier is dependable enough to use.
+
+Name the first consequential issue you expect to resolve in P1—for example, the exact fact grain, which of two candidate objects should drive the model, or whether a date or identifier is dependable enough to use.
 9. AI Disclaimer
-* No AI was used generating this proposal
+
+No AI was used generating this proposal
