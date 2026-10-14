@@ -5,7 +5,7 @@
   - A data product would help to track trends across demographic groups to see flag any internal warning sign by creating an easy way to see trends and track changes.
   - A useful product here would allow for the HR department to intervene and evaluate workplace culture for groups that have outlier values in turnover or hiring discrepancies regarding hostilities and bias.
 
-## Describe the consumption artifact (likely a dashboard with 2-4 questions that should be answered)
+## Consumption Artifact Design
 
 The consumption object would be a dashboard consisting of various visualizations, like line charts exploring with filtering options, the below questions.
    - Are there any demographic groups (race or gender) that have an outlying high attrition rate?
