@@ -74,6 +74,6 @@ The consumption object would be a dashboard consisting of various visualizations
 
 Are the workforce values consistently applied across the history, so that they can be used as a conformed dimension for more granular analysis
 
-##AI Disclaimer
+## AI Disclaimer
 
 No AI was used generating this proposal
