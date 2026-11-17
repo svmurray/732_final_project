@@ -19,7 +19,7 @@
 | Keys | Run_ID as a warehouse key, which is on the granularity of the table (one year-gender-workforce group) |
 | Row Count | 32 |
 | Row Count Differences? | There is no difference in the row count from Raw to Curated due to the nature of the data being ingested, it is small and already highly managed, so there are no instances of null or out-of-bound values |
- # Rules
+ ## Rules
  * Gender, Workforce, and Year are non-null
  * All racial hiring rates are <= 1.0
 
