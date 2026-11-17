@@ -1,4 +1,4 @@
-## 1. Input/Ingestion
+# 1. Input/Ingestion
 | Question | Answer |
 | -- | -- |
 | Primary Question | What demographic group(s) are seeing their hiring rates rise? |
@@ -12,7 +12,7 @@
 | Row Grain | One row represents one year-gender-workforce group's hiring rates as reported by Google on its annual Diversity Annual Report |
 | Snapshot Scope | Load using 2018 as the Report Year |
 
-## 2. Curation
+# 2. Curation
 | Question | Answer |
 | -- | -- |
 | One Row Represents | One row represents one year-gender-workforce group's hiring rates as reported by Google on its annual Diversity Annual Report |
@@ -23,7 +23,7 @@
  * Gender, Workforce, and Year are non-null
  * All racial hiring rates are <= 1.0
 
-# Field Trace
+## Field Trace
 | Question | Answer |
 | -- | -- |
 | Source Field | race_white |
@@ -32,7 +32,7 @@
 | Formula | race_white_change / race_white_change (2) where (2) indicates the value from the preivous report year |
 | Output | The output will support the indication of whether the hiring rate rose or fell and by what magnitude YoY |
 
-## 3. Acceptance Checks
+# 3. Acceptance Checks
 | Risk and affected result | Check code | Expected result and why | Observed result | Interpretation or action |
 | -- | -- | -- | -- | -- |
 | Hiring Rate over 100% | [04_acceptance.sql lines 3-13](https://github.com/svmurray/732_final_project/blob/main/sql/04_acceptance.sql) | 0 | 0 | This indicates that no rows are out of bounds. Any rows that fail the check should not be included, but would be symptomatic of a larger issue, so the curation check raises errors if/when failures occur |
